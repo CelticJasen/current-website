@@ -1,0 +1,127 @@
+.pricingTable {
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  padding: 50px 0 25px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.pricingTable .pricing-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  padding: 10px;
+  transform: translateX(-50%);
+  transition: all 0.5s ease 0s;
+}
+
+.pricingTable:hover .pricing-icon {
+  border: 1px solid blue;
+  background: blue;
+}
+
+.pricingTable .pricing-icon i {
+  width: 100%;
+  height: 100%;
+  line-height: 58px;
+  border-radius: 50%;
+  background: blue;
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.5s ease 0s;
+}
+
+.pricingTable:hover .pricing-icon i {
+  color: blue;
+  background: #fff;
+}
+
+.pricingTable .price-value {
+  display: inline-block;
+  font-size: 60px;
+  color: black;
+  position: relative;
+}
+
+.pricingTable .currency {
+  font-size: 25px;
+  position: absolute;
+  top: 18px;
+  left: -18px;
+}
+
+.pricingTable .month {
+  display: block;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.pricingTable .pricingHeader {
+  position: relative;
+  z-index: 1;
+}
+
+.pricingTable .pricingHeader:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  background-color: navy;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+}
+
+.pricingTable .title {
+  width: 50%;
+  background: #06f;
+  margin: 10px auto;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  /*text-transform: uppercase;*/
+  position: relative;
+  z-index: 1;
+}
+
+.pricingTable .pricingTable-signup {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background: #06f;
+  border: 2px solid navy;
+  border-radius: 20px;
+  padding: 5px 20px;
+  transition: all 0.5s ease 0s;
+}
+
+.pricingTable .pricingTable-signup:hover {
+  background: #fff;
+  color: blue;
+  border: 2px solid #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:990px) {
+  .pricingTable {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .pricingTable {
+    margin-bottom: 60px;
+  }
+}
+

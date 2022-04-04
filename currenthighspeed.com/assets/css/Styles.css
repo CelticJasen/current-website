@@ -1,0 +1,78 @@
+.nav-link.active, .nav-link.set {
+  color: blue!important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #69f !important;
+  font-weight: 400;
+}
+
+.dropdown-item {
+  background-color: #ccf;
+  border: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #0ff !important;
+  color: #00f !important;
+}
+
+.dropdown-item.set {
+  background-color: blue !important;
+  color: #0ff !important;
+  font-weight: 300;
+}
+
+.features blue, .icon {
+  color: rgb(255,201,163) !important;
+}
+
+.features blue, .name {
+  color: rgb(255,170,70) !important;
+}
+
+.features blue, .description {
+  color: rgb(255,255,162) !important;
+}
+
+.email {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.pricingTable {
+  border-color: blue;
+  border-width: 2px;
+}
+
+.pricingTable > hr {
+  border-color: cyan;
+  border-width: 1px;
+}
+
+.pricingHeader > .title {
+  border: 3px solid navy;
+}
+
+.pricingTable > .month {
+  font-weight: bold;
+}
+
+@media (min-width: 295px) {
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+}
+
+.nav-item > .dropdown-menu :nth-child(6) {
+  font-weight: 600;
+  font-size: 14px;
+  font-style: italic;
+  text-transform: uppercase !important;
+}
+
+.article.list, .name {
+  text-align: left;
+}
+
