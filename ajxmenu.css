@@ -8,6 +8,6 @@
 * html .AJXCSSMenuaJLLHTC ul {display:inline;}
 *+html .AJXCSSMenuaJLLHTC ul {display:inline;}
 .AJXCSSMenuaJLLHTC li {float:left;margin:0;}
-.AJXCSSMenuaJLLHTC a {display:block;float:left;height:64px;white-space:nowrap;overflow:hidden;padding:0 11px 0 11px;font:bold 12px/64px Verdana,Arial,Helvetica,sans-serif;text-decoration:none;text-align:center;color:#144951;background:url(ajxmenu_files/top.gif) no-repeat bottom right;}
+.AJXCSSMenuaJLLHTC a {display:block;float:left;height:64px;white-space:nowrap;overflow:hidden;padding:0 8px 0 8px;font:bold 10px/64px Verdana,Arial,Helvetica,sans-serif;text-decoration:none;text-align:center;color:#144951;background:url(ajxmenu_files/top.gif) no-repeat bottom right;}
 .AJXCSSMenuaJLLHTC li:hover a,.AJXCSSMenuaJLLHTC .ajxover a {color:#49010c;background:#43777e url(ajxmenu_files/top.gif) no-repeat top right;}
 .AJXCSSMenuaJLLHTC br {clear:both;height:0;font-size: 1px;line-height: 0px;}
